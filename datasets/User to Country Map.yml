@@ -1,7 +1,7 @@
 unique_name: User to Country Map
 label: User to Country Map
 object_type: dataset
-connection_id: as_adventure
+connection_id: BigQuery
 sql: select 'France' as "country", 'joe' as "username"
   union all
   select 'United States' as "country", 'david' as "username"
